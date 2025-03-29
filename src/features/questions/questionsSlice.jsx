@@ -42,7 +42,7 @@ const questionsSlice = createSlice({
             let temp = state.questionsRedux[state.index + 1]
             let newArray = {id: temp.id, 
               correctAnswer: temp.correctAnswer, 
-              question: temp.question,
+              question: temp.question.text,
               options: shuffleArray([...temp.incorrectAnswers, temp.correctAnswer])
             }
             state.index += 1

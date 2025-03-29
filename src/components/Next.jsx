@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { gameEnded, nextQuestion } from '../features/questions/questionsSlice'
 
 export const Next = () => {
-    const {index} = useSelector(store => store.questions)
+    const questions = useSelector(store => store.questions)
 
     const dispatch = useDispatch()
     const navigate = useNavigate()
@@ -14,7 +14,7 @@ export const Next = () => {
         navigate('/results')
     }
 
-  if(index < 14) return (
+  if(questions.index < questions.questionsRedux.length -1) return (
     <button className='btn btn-ui' onClick={()=>dispatch(nextQuestion())}>Հաջորդ</button>
   )
   
