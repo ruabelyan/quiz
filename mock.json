@@ -1,56 +1,63 @@
 [
     {
-        "id": "648ee4224fe93387161138ab",
-        "correctAnswer": "Happy",
-        "incorrectAnswers": [
-            "Joyful",
-            "Excited",
-            "Satisfied"
-        ],
-        "question": "What is the one-word title of a 2014 Pharrell Williams hit?"
+      "id": "rektoriate-meeting-001",
+      "question": "Ո՞ր մարմնի նիստն է անցկացվում բուհում՝ որոշումներ կայացնելու համար կրթական և կառավարչական հարցերի շուրջ։",
+      "correctAnswer": "Ռեկտորիատ",
+      "incorrectAnswers": ["Դեկանատ", "Գիտական խորհուրդ", "Ուսանողական խորհուրդ"]
     },
     {
-        "id": "645a6490158db1bd1779f197",
-        "correctAnswer": "Dancing",
-        "incorrectAnswers": [
-            "Buzzing",
-            "Singing",
-            "Whistling"
-        ],
-        "question":  "How does a scout bee communicate to other bees about the location of flowers?"
-       
+      "id": "rektoriate-meeting-002",
+      "question": "Ո՞վ է նախագահում ռեկտորիատի նիստը բուհում:",
+      "correctAnswer": "Ռեկտորը",
+      "incorrectAnswers": ["Դեկանը", "Ուսանողական խորհրդի նախագահը", "Գիտական քարտուղարը"]
     },
     {
-        "id": "62373602cfe13103f55eb591",
-        "correctAnswer": "The United Kingdom",
-        "incorrectAnswers": [
-            "Ukraine",
-            "Uzbekistan",
-            "Uganda"
-        ],
-        "question":"Which region of the world uses '.uk' at the end of its web addresses?"
-        
+      "id": "rektoriate-meeting-003",
+      "question": "Ի՞նչ բնույթի հարցեր են հիմնականում քննարկվում ռեկտորիատի նիստերի ժամանակ:",
+      "correctAnswer": "Կրթական և վարչական",
+      "incorrectAnswers": ["Միայն ֆինանսական", "Միայն տեխնիկական", "Միայն ուսանողական"]
     },
     {
-        "id": "6266bc1fff2394bd44dedff9",
-        "correctAnswer": "Bongo",
-        "incorrectAnswers": [
-            "Lute",
-            "Ocarina",
-            "Saxophone"
-        ],
-        "question":  "Which of these is a percussion instrument?"
-       
+      "id": "rektoriate-meeting-004",
+      "question": "Ո՞ր պարբերականությամբ է սովորաբար անցկացվում ռեկտորիատի նիստը:",
+      "correctAnswer": "Շաբաթական կամ ամսական",
+      "incorrectAnswers": ["Տարեկան մեկ անգամ", "Ամառային արձակուրդներին", "Ուսանողների պահանջով"]
     },
     {
-        "id": "6266bc1fff2394bd44dedff9",
-        "correctAnswer": "Bongo",
-        "incorrectAnswers": [
-            "Lute",
-            "Ocarina",
-            "Saxophone"
-        ],
-        "question":  "Which of these is a percussion instrument?"
-       
+      "id": "rektoriate-meeting-005",
+      "question": "Արդյո՞ք ռեկտորիատի նիստերը կարող են ունենալ որոշում կայացնող լիազորություն:",
+      "correctAnswer": "Այո",
+      "incorrectAnswers": ["Ոչ", "Միայն խորհրդատվական են", "Միայն ուսումնական խորհուրդն է որոշում կայացնում"]
+    },
+    {
+      "id": "rektoriate-meeting-006",
+      "question": "Ո՞ր փաստաթուղթը սովորաբար կազմում են ռեկտորիատի նիստից հետո:",
+      "correctAnswer": "Նիստի արձանագրություն",
+      "incorrectAnswers": ["Մամուլի հաղորդագրություն", "Հուշագիր", "Ֆինանսական հաշվետվություն"]
+    },
+    {
+      "id": "rektoriate-meeting-007",
+      "question": "Ո՞վ կարող է մասնակցել ռեկտորիատի նիստին՝ ներկայացնելով ուսանողների դիրքորոշումը:",
+      "correctAnswer": "Ուսանողական խորհրդի ներկայացուցիչը",
+      "incorrectAnswers": ["Դասախոսներից որևէ մեկը", "Դեկաններից որևէ մեկը", "Ֆինանսական բաժնի ղեկավար"]
+    },
+    {
+      "id": "rektoriate-meeting-008",
+      "question": "Ինչպե՞ս են ընդունվում որոշումները ռեկտորիատի նիստում:",
+      "correctAnswer": "Քվեարկությամբ",
+      "incorrectAnswers": ["Ռեկտորի մենակարծիքով", "Կառավարման խորհրդի միջոցով", "Հեռակա եղանակով"]
+    },
+    {
+      "id": "rektoriate-meeting-009",
+      "question": "Ռեկտորիատի նիստի ընթացքում քննարկվող որոշումները հիմնականում վերաբերում են՝",
+      "correctAnswer": "Ուսումնական գործընթացի կազմակերպմանը",
+      "incorrectAnswers": ["Շինարարական աշխատանքներին", "Սոցիալական աջակցության ծրագրերին", "Սպորտային միջոցառումներին"]
+    },
+    {
+      "id": "rektoriate-meeting-010",
+      "question": "Ռեկտորիատի նիստում կարո՞ղ են մասնակցել դեկանները։",
+      "correctAnswer": "Այո",
+      "incorrectAnswers": ["Ոչ", "Միայն հրավիրված դեպքում", "Միայն առցանց"]
     }
-]
+  ]
+  

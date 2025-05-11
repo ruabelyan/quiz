@@ -15,7 +15,7 @@ export const StartScreen = () => {
       // Show prompt for email input
       const email = prompt("Մուտքագրեք ձեր Էլ հասցեն");
       const password = prompt("Մուտքագրեք ձեր Էլ Գաղտնաբառը");
-      if (email === 'armen.andreasyan@gmail.com' || password === 'Aaaa1111') {
+      if (email === 'armen.andreasyan@gmail.com' && password === 'Aaaa1111') {
         // If email is entered, continue to the quiz
         dispatch(selectGameMode(gameMode));
         navigate(`/quiz`);
@@ -34,7 +34,7 @@ export const StartScreen = () => {
         <h4 style={{marginTop:"20px"}}>Ընտրեք քվեարկության տեսակը:</h4>
         <div className="game-mode">
             <button className='btn2' value='easy' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#0ee32a"}}>Գրանցված օգտատեր</button>
-            <button className='btn2' value='hard' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#fc2121"}}>Անանուն</button>
+            {/* <button className='btn2' value='hard' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#fc2121"}}>Անանուն</button> */}
         </div>
         <SocialMedia/>
     </div>
