@@ -19,7 +19,7 @@ export const StartScreen = () => {
         // If email is entered, continue to the quiz
         dispatch(selectGameMode(gameMode));
         navigate(`/quiz`);
-      }else {
+      } else {
         alert('Ձեր մուտքագրած տվյալները սխալ են, դուք կարղ եք քվեարկել ԱՆԱՆՈՒՆ')
       }
     } else {
@@ -30,13 +30,13 @@ export const StartScreen = () => {
   };
   return (
     <div className='start-screen'>
-        <h3>15 հարց՝ ձեր ընդհանուր գիտելիքները ստուգելու համար</h3>
-        <h4 style={{marginTop:"20px"}}>Ընտրեք քվեարկության տեսակը:</h4>
-        <div className="game-mode">
-            <button className='btn2' value='easy' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#0ee32a"}}>Գրանցված օգտատեր</button>
-            {/* <button className='btn2' value='hard' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#fc2121"}}>Անանուն</button> */}
-        </div>
-        <SocialMedia/>
+      <h3>Մասնակցել քվեարկությանը</h3>
+      {/* <h4 style={{ marginTop: "20px" }}>Ընտրեք քվեարկության տեսակը:</h4> */}
+      <div className="game-mode">
+        <button className='btn2' value='easy' onClick={(e) => handleClick(e)} style={{ backgroundColor: "#0ee32a" }}>Սկսել</button>
+        {/* <button className='btn2' value='hard' onClick={(e)=>handleClick(e)} style={{backgroundColor:"#fc2121"}}>Անանուն</button> */}
+      </div>
+      <SocialMedia />
     </div>
   )
 }

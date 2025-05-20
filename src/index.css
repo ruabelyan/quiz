@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
 :root {
-  --color-darkest: #343a40;
+  --color-darkest: #39387b;
   --color-dark: #495057;
   --color-medium: #ced4da;
   --color-light: #f1f3f5;
@@ -238,8 +238,8 @@ progress {
 
 .answer {
   transform: translateX(2rem);
-  background-color: #fc2121;
-  border: 2px solid #fc2121;
+  background-color: #0ee32a;
+  border: 2px solid #0ee32a;
 }
 
 .result {
